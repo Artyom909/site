@@ -1,0 +1,210 @@
+@import "_nullstyle";
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.header {
+	background-image: url(/img/img.jpg);
+	min-height: 810px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		height: 100px;
+		align-items: center;
+	}
+}
+.container {
+	max-width: 1170px;
+	padding: 0 15px 0;
+	margin: 0 auto;
+}
+
+.menu {
+	&__list {
+		display: flex;
+	}
+
+	&__list-item + &__list-item {
+		padding-left: 50px;
+	}
+
+	&__list-link {
+		opacity: 0.5;
+		color: #fff;
+		text-transform: uppercase;
+		font-weight: 600;
+		transition: all 0.5;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.header-btn {
+}
+.login {
+	padding-right: 44px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+}
+.sign-up {
+	font-weight: 700;
+	text-transform: uppercase;
+	border: 1px solid #fff;
+	padding: 8px 44px 8px 44px;
+	border-radius: 20px;
+	background: #ffffff;
+}
+.header-slider {
+	padding-top: 111px;
+
+	&__item {
+		
+	}
+
+	&__item-content {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item-content-info {
+		max-width: 506px;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 45px;
+		line-height: 60px;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+
+	&__descr {
+		color: #fff;
+		font-size: 24px;
+		line-height: 55px;
+		margin-bottom: 62px;
+	}
+
+	&__link {
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #250f8a;
+		border: 1px;
+		border-radius: 25px;
+		padding: 13px 39px;
+		background-color: #ffca00;
+	}
+
+	&__item-content-images {
+		margin: 10px 82px 0 0;
+	}
+}
+.header-dots {
+	position: absolute;
+	right: 0;
+	top: 50%;
+
+	button {
+		border: none;
+		opacity: 0.5;
+		font-size: 0;
+		width: 7px;
+		height: 7px;
+		border-radius: 3.5px;
+		cursor: pointer;
+		margin: 10px auto;
+		display: block;
+	}
+}
+.header-dots .slick-active button {
+	width: 15px;
+	opacity: 1;
+}
+
+.specialised {
+	padding: 55px 0 93px;
+
+	&__title {
+		text-align: center;
+		font-size: 35px;
+		line-height: 45px;
+		color: #202020;
+		font-weight: 700;
+		margin-bottom: 96px;
+	}
+
+	&__items {
+		display: flex;
+		justify-content: space-between;
+		max-width: 980px;
+		margin: 0 auto;
+	}
+
+	&__item {
+		max-width: 280px;
+		text-align: center;
+	}
+
+	&__item-img {
+		margin-bottom: 23px;
+		min-height: 159px;
+	}
+
+	&__item-title {
+		font-weight: 700;
+		font-size: 20px;
+		color: #202020;
+		margin-bottom: 8px;
+	}
+
+	&__item-text {
+		color: #272727;
+		opacity: 0.7;
+	}
+}
+
+.title {
+}
+
+.advantages {
+	padding-top: 64px;
+	background-color: #f4f9fd;
+	padding-bottom: 76px;
+}
+
+.advantages-box {
+	display: flex;
+	justify-content: space-between;
+
+	&__info {
+		max-width: 455px;
+	}
+
+	&__title {
+		font-weight: 700;
+		color: #202020;
+		font-size: 35px;
+		line-height: 45px;
+		padding: 68px 0 27px 48px;
+	}
+
+	&__text {
+		color: #272727;
+		padding-left: 48px;
+	}
+
+	&__images {
+	}
+}
+.paragraph {
+	margin: 12px 0;
+}
